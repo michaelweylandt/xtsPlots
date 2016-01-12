@@ -1,0 +1,13 @@
+Package: xtsPlots
+Version: 0.0-1
+Date: 2016-01-11
+Title: Advanced Plotting for xts Time Series
+Author: Michael Weylandt
+Maintainer: Michael Weylandt <michael.weylandt@gmail.com>
+Description: Advanced plotting functionality for xts time series objects.
+   This code was originally written as part of GSOC-2012 (mentored by Josh Ulrich and
+   Jeff Ryan) but never merged into mainline xts. This code is being placed on Github as a
+   standalone package for use in STAT421/621-S16 at Rice University.
+Depends: zoo, xts
+License: GPL-2
+URL: http://github.com/michaelweylandt/xtsPlots
