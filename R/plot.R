@@ -127,6 +127,10 @@
         ylab <- ""
       else
         ylab <- split(names(x), screens)
+    } else {
+      if(yax.loc == "none")
+        warning(paste("'ylab' provided by 'yax.loc' is 'none' so will be ignored.",
+                      "Change 'yax.loc' to show y-axis labels."))
     }
 
     log <- dots[["log"]]
